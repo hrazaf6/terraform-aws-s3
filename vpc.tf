@@ -3,7 +3,7 @@ module "vpc_cloudilm" {
   version = "1.0.0"
 
   cidr = "172.16.0.0/16"
-  env_name = "dev"
+  env = "dev"
   manageby = "terraform "
   owner = "Hamid"
 }
