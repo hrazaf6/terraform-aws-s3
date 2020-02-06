@@ -8,7 +8,7 @@ terraform {
     organization = "cloudilm-dev"
 
     workspaces {
-      name = "terraform-aws-s3"
+      prefix = "dev-"
     }
   }
 }
